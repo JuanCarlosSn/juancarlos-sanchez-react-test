@@ -1,0 +1,22 @@
+.users-container {
+  padding: 20px;
+
+  .add-button {
+    background-color: $button-background-color !important;
+    color: $button-text-color !important;
+    border: none !important;
+    border-radius: $input-border-radius !important;
+    font-size: 1rem !important;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: $button-hover-color !important;
+    }
+  }
+  
+  .icon-small {
+    font-size: 0.9rem;
+  }
+}
+
+

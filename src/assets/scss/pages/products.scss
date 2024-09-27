@@ -1,0 +1,26 @@
+.products-container {
+  padding: 20px;
+
+  tr {
+    cursor: pointer;
+  }
+  
+  .icon-small {
+    font-size: 0.9rem;
+  }
+}
+
+.add-button {
+  background-color: $button-background-color !important;
+  color: $button-text-color !important;
+  border: none !important;
+  border-radius: $input-border-radius !important;
+  font-size: 1rem !important;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover-color !important;
+  }
+}
+
+

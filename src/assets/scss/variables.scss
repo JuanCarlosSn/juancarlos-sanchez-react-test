@@ -1,0 +1,26 @@
+// Colores principales
+$primary-color: #e63946;
+$secondary-color: #ffffff;
+$border-color: #dee2e6;
+$hover-color: #f1f1f1;
+$hover-background-color: #f0f0f0;
+$button-hover-color: adjust-color($primary-color, $lightness: -10%);
+$button-background-color: $primary-color;
+$button-text-color: $secondary-color;
+
+// Tipografía
+$font-weight-bold: bold;
+$font-color: #333;
+$label-color: #555;
+$input-border-color: #ccc;
+$input-focus-border-color: $primary-color;
+$input-background-color: #f9f9f9;
+$input-padding: 0.5rem;
+$input-border-radius: 4px;
+$input-box-sizing: border-box;
+
+// Otros
+$box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+$border-radius: 8px;
+$padding: 2rem;
+$margin-bottom: 1rem;

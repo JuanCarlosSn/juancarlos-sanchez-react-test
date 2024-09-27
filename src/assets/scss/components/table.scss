@@ -1,0 +1,66 @@
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid $input-border-color;
+  border-radius: $input-border-radius;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid $border-color;
+  }
+}
+
+.pagination {
+  margin-top: 20px;
+
+  .page-item {
+    margin-right: 5px;
+
+    .page-link {
+      padding: 10px 15px;
+      border: none;
+      background-color: $button-background-color;
+      color: $button-text-color;
+      border-radius: $input-border-radius;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background-color: $button-hover-color;
+      }
+
+      &.disabled {
+        background-color: $hover-background-color;
+        color: $label-color;
+        pointer-events: none;
+      }
+
+      i {
+        color: $button-text-color;
+      }
+    }
+
+    &.active .page-link {
+      background-color: $button-hover-color;
+      border-color: $button-hover-color;
+    }
+  }
+}
+
+th {
+  cursor: pointer;
+
+  &:hover {
+    background-color: $hover-background-color; /* Cambia el color al pasar el mouse */
+  }
+}

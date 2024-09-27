@@ -1,0 +1,81 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: $padding;
+  background-color: $input-background-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: $font-color;
+}
+
+.form-group {
+  margin-bottom: $margin-bottom;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: $label-color;
+}
+
+input {
+  width: 100%;
+  padding: $input-padding;
+  border: 1px solid $input-border-color;
+  border-radius: $input-border-radius;
+  box-sizing: $input-box-sizing;
+}
+
+input:focus {
+  border-color: $input-focus-border-color;
+  outline: none;
+}
+
+.text-danger {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.btn-block {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: $button-background-color;
+  border: none;
+  border-radius: $input-border-radius;
+  color: $button-text-color;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
+}
+
+.btn-custom-primary {
+  background-color: $button-background-color;
+  color: $button-text-color;
+  border: none;
+  border-radius: $input-border-radius;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%; // Para que ocupe todo el ancho
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
+}

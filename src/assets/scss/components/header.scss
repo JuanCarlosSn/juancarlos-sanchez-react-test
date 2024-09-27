@@ -1,0 +1,26 @@
+.header {
+  border-bottom: 1px solid $border-color;
+}
+
+.nav-link {
+  color: $primary-color;
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.nav-right .btn {
+  font-weight: $font-weight-bold;
+  background-color: $button-background-color;
+  color: $button-text-color;
+  border: none;
+  border-radius: $input-border-radius;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
+}

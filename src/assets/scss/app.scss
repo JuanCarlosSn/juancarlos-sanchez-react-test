@@ -1,0 +1,21 @@
+//Core files
+@import "variables";
+
+//Pages}
+@import "pages/login";
+@import "pages/products";
+@import "pages/product-create";
+@import "pages/product-edit";
+@import "pages/product-details";
+@import "pages/not-found";
+@import "pages/users";
+@import "pages/user-create";
+@import "pages/user-edit";
+
+//Components
+@import "components/header";
+@import "components/table";
+
+//Bootstrap SCSS
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
