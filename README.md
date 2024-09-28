@@ -16,3 +16,15 @@ npm run build
 ```
 
 4. Copiar build generado en producción
+
+## Para iniciar sesión el usuario es:
+
+```bash
+user1@prueba.com
+```
+
+## Y la contraseña:
+
+```bash
+Password1!
+```
