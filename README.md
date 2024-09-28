@@ -30,7 +30,7 @@ npm run build
 
 </IfModule>
 ```
-5. Copiar build generado en producción
+5. Copiar la carpeta build generada en producción
 
 
 ## Para iniciar sesión el usuario es:
